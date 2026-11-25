@@ -120,6 +120,8 @@ function App() {
                 <button className="action-card" onClick={() => changePage("Performance Lab")}><div className="action-icon"><Zap size={19} /></div><span><b>Performance lab</b><small>Measure before optimizing</small></span><span className="action-arrow">↗</span></button>
               </div>
             </>
+          ) : page === "Version Library" ? (
+            <MinecraftLibrary />
           ) : (
             <div className="placeholder-page">
               <div className="placeholder-icon">{page === "Performance Lab" ? <Activity size={26} /> : page === "Mod Marketplace" ? <Package size={26} /> : <Layers3 size={26} />}</div>
