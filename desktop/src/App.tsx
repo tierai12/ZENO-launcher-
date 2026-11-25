@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import MinecraftLibrary from "./MinecraftLibrary";
 import { invoke } from "@tauri-apps/api/core";
 import {
   Activity, Boxes, ChevronDown, CircleHelp, Cpu, Download, Gauge,
